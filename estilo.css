@@ -23,10 +23,11 @@ body{
 .cabecero2{
     padding: 25px;
     margin: 100px;
-    background-image: url(DSC_0749.JPG);
-    background-position-y: 470px;
+    background-image: url(DSC_07496.JPG);
+    background-position-y: none;
     background-position-x: center;
     background-size: cover;
+    background-position: bottom;
     font-style: italic;
     margin-bottom: 15px;
     margin-top:30px ;
