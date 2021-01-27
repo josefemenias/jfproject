@@ -3,24 +3,17 @@ body{
     margin-left: 100px ;
     margin-right:  100px;
 }
-.cabecero{
+.cabecero{ 
+    background-image: url(DSC_07496.JPG);
     padding: 50px;
-    margin: 100px;
-    background-image: url(DSC_0749.JPG);
-    background-position-y: 500px;
+    margin: 25px;
+    background-position-y: none;
     background-position-x: center;
     background-size: cover;
-    font-style: italic;
-    margin-left: 100px ;
-    margin-right:  100px;
-    margin-bottom: 15px;
-    margin-top:30px ;
-    font-size: x-large;
+    background-position: bottom;
     border-radius: 5px;
-    border-color: white;
-    border: 1px solid #ffffff;
 }
-.cabecero2{
+.cabecero3{
     padding: 25px;
     margin: 100px;
     background-image: url(DSC_07496.JPG);
