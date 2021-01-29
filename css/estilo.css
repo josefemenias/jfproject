@@ -2,8 +2,19 @@ body{
     background-color: rgb(86, 130, 153);
     
 }
+nav {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 25px;
+  margin: -8px;
+}
+.navbar{
+  font-size: x-large;
+  font-style: italic;
+}
+
 .cabecero{ 
-    background-image: url(DSC_07496.jpg);
+    background-image: url(../fotos/DSC_07496.jpg);
     padding: 50px;
     margin: 25px;
     background-size: cover;
@@ -19,7 +30,7 @@ body{
 .cabecero2{
     padding: 25px;
     margin: 25px;
-    background-image: url(DSC_07496.jpg);
+    background-image: url(../fotos/DSC_07496.jpg);
     background-size: cover;
     background-position: center;
     font-style: italic;
@@ -31,16 +42,18 @@ body{
     border: 1px solid #ffffff;
 }
 .logolateral{
-    float:right;
-    max-width: 300px;
-
+    float: left;;
+    width: fit-content;
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: -13px;
+    margin-left: 30px;
 }
 .semiwhitebackground1{
     background-color: rgba(255, 255, 255, 0.542);
-    margin-right: 500px;
     padding: 10px;
     border-radius: 5px;
-}
+    }
 .getbigger:hover{
     font-size: larger;
     transition: 0.2s;
