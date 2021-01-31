@@ -41,13 +41,13 @@ nav {
     border-color: white;
     border: 1px solid #ffffff;
 }
-.logolateral{
-    float: left;
-    width: fit-content;
-    max-width: 50px;
-    max-height: 50px;
-    margin-top: -13px;
-    margin-left: 30px;
+.logolateral{  
+    width: auto;
+    height: auto;
+    max-height: 72px;
+    max-width: 250px;
+    
+    
 }
 .semiwhitebackground1{
     background-color: rgba(255, 255, 255, 0.542);
