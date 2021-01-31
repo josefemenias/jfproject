@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(86, 130, 153);
+    background-color: rgb(128, 192, 226);
     
 }
 nav {
@@ -16,6 +16,8 @@ html {
   font-style: italic;
 }
 
+
+
 .cabecero{ 
     background-image: url(../fotos/DSC_07496.jpg);
     padding: 50px;
@@ -25,7 +27,7 @@ html {
     font-style: italic;
     margin-bottom: 15px;
     margin-top:30px ;
-    font-size: x-large;
+    font-size: larger;
     border-radius: 5px;
     border-color: white;
     border: 1px solid #ffffff;
