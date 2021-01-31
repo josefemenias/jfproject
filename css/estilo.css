@@ -8,6 +8,9 @@ nav {
   padding: 25px;
   margin: -8px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .navbar{
   font-size: x-large;
   font-style: italic;
@@ -45,10 +48,9 @@ nav {
     width: auto;
     height: auto;
     max-height: 72px;
-    max-width: 250px;
-    
-    
+    max-width: 250px;  
 }
+
 .semiwhitebackground1{
     background-color: rgba(255, 255, 255, 0.542);
     padding: 10px;
