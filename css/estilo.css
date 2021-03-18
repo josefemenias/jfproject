@@ -22,20 +22,7 @@ footer{
   font-style: italic;
 }
 
-.cabecero{ 
-    background-image: url(../fotos/DSC_07496.jpg);
-    padding: 50px;
-    margin: 25px;
-    background-size: cover;
-    background-position: center;
-    font-style: italic;
-    margin-bottom: 15px;
-    margin-top:30px ;
-    font-size: larger;
-    border-radius: 5px;
-    border-color: white;
-    border: 1px solid #ffffff;
-}
+
 .cabecero2{
     padding: 25px;
     margin: 25px;
@@ -109,13 +96,22 @@ footer{
   width:  500px;
   height: 300px;
   margin: 70px auto;
+  margin-bottom: 15px;
+  margin-top:30px ;
   position: relative;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  
+}
+.cabecero{ 
+  background-image: url(../fotos/DSC_07496.jpg);
+  padding: 50px;
 }
 .slider {
   overflow-x: scroll;
 }
 .holder {
-  width: 400%;
+  width: 500%;
 }
 .slide {
   float: left;
@@ -134,9 +130,10 @@ footer{
   font-weight: 100;
 }
 #slide-0 {
-  background-image: url(../fotos/DSC_1057.JPG);
+  background-image: url(../fotos/DSC_07496.jpg);
   background-size: cover;
   background-position: center;
+ 
 }
 #slide-1 {
   background-image: url(../fotos/DSC_0593.JPG);
@@ -153,6 +150,12 @@ footer{
   background-size: cover;
   background-position: center;
 }
+#slide-4 {
+  background-image: url(../fotos/DSC_1057.JPG);
+  background-size: cover;
+  background-position: center;
+}
+
 .slide:before {
   content: "";
   position: absolute;
@@ -164,7 +167,7 @@ footer{
 }
 .slider-nav {
   text-align: center;
-  margin: 10px 0 0 0;
+  margin: 4px;
 }
 .slider-nav a {
   width: 10px;
