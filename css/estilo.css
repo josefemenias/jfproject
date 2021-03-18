@@ -96,7 +96,7 @@ footer{
   width:  500px;
   height: 300px;
   margin: 70px auto;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-top:30px ;
   position: relative;
   border-radius: 5px;
@@ -123,7 +123,7 @@ footer{
 .temp {
   position: absolute;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   bottom: 15px;
   left: 15px;
   font-family: 'Josefin Slab', serif;
@@ -133,7 +133,6 @@ footer{
   background-image: url(../fotos/DSC_07496.jpg);
   background-size: cover;
   background-position: center;
- 
 }
 #slide-1 {
   background-image: url(../fotos/DSC_0593.JPG);
@@ -146,7 +145,7 @@ footer{
   background-position: center;
 }
 #slide-3 {
-  background-image: url(../fotos/DSC_0624.JPG);
+  background-image: url(../fotos/DSC_0301.JPG);
   background-size: cover;
   background-position: center;
 }
