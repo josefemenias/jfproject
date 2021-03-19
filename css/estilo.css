@@ -21,6 +21,9 @@ footer{
   font-size: x-large;
   font-style: italic;
 }
+.navigation{
+  background-size: auto;
+}
 .ig{
   height: 60px;
   width: 60px;
