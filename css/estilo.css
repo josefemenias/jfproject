@@ -100,8 +100,8 @@ footer{
 }
 
 .slider-wrap {
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 225px;
   margin: 70px auto;
   position: relative;
 }
@@ -113,8 +113,8 @@ footer{
 }
 .slide {
   float: left;
-  width: 400px;
-  height: 250px;
+  width: 350px;
+  height: 225px;
   position: relative;
   background-position: -100px 0;
 }
