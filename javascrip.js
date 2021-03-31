@@ -61,3 +61,9 @@ var slider = {
   
   // https://codepen.io/BaylorRae/pen/ImGBC
   // Originally added click links, so I ported over and re-wrote
+
+
+
+
+
+  
