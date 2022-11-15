@@ -9,10 +9,14 @@ nav {
   margin-bottom: -20px;
 }
 header{
-  margin-top: -50px;
+  margin-top: 5px;
 }
 html {
   scroll-behavior: smooth;
+}
+main{
+  
+  animation: transitionIn 0.75s;
 }
 footer{
   background-color: rgb(90, 90, 90);
@@ -21,9 +25,30 @@ footer{
   padding: 10px;
   text-align: center;
 }
-.navbar{
+
+@keyframes transitionIn{
+  from{
+      opacity: 0;
+      transform:rotateX(-10deg)
+  }
+  to{
+      opacity: 1;
+      transform: rotateX(0);
+  }
+}
+
+.ifnor{
+ text-align: center;
+ text-decoration-line: underline;
+ text-decoration-color: #000000;
+ text-decoration-thickness: auto ;
+}
+.navbar_b{
   font-size: x-large;
   font-style: italic;
+}
+.navbar_a{
+  background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));
 }
 
 .ig{
@@ -34,7 +59,6 @@ footer{
   height: 50px;
   width: 60px;
 }
-
 
 .cabecero2{
     padding: 25px;
@@ -68,10 +92,11 @@ footer{
     border-radius: 5px;
     }
 .getbigger:hover{
-    font-size: larger;
-    transition: 0.2s;
+    font-size: medium;
+    transition: 0.1s;
     color: tomato;
 }
+
 .getbigger{
     transition: 0.6s;
 }
@@ -108,8 +133,8 @@ footer{
 /* de aqui para abajo es css de el slider */
 
 .slider-wrap {
-  width: 350px;
-  height: 225px;
+  width: 75%;
+  height: 55%;
   margin: 70px auto;
   position: relative;
 }
@@ -117,7 +142,7 @@ footer{
   overflow-x: scroll;
 }
 .holder {
-  width: 500%;
+  width: max-content;
 }
 .slide {
   float: left;
@@ -181,7 +206,7 @@ footer{
   background: #daedfa;
   display: inline-block;
   padding: 5px 5px 5px;
-  border-radius: 25%;
+  border-radius: 2px;
   color: #555;
   margin-left: 5px;
   margin-right: 5px;
