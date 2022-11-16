@@ -15,7 +15,7 @@ header{
 }
 html {
   scroll-behavior: smooth;
-  background: linear-gradient(to bottom,rgb(255, 255, 255) ,rgb(90, 90, 90)0%);
+  background: linear-gradient(to bottom,rgb(255, 255, 255) ,rgb(90, 90, 90)0.1%);
 }
 main{
   animation: transitionIn 0.75s;
