@@ -1,3 +1,4 @@
+
 var slider = {
   
     // Not sure if keeping element collections like this

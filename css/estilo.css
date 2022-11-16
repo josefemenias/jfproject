@@ -37,19 +37,26 @@ footer{
   }
 }
 .indice{
-  margin-top: 5px;
+  margin-top: 20px;
 }
 .ifnor{
  text-align: center;
  text-decoration: wavy;
 }
+.navbar_a{
+  background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));
+  margin-bottom: 50px;
+}
 .navbar_b{
   font-size: x-large;
   font-style: italic;
 }
-.navbar_a{
+.navbar_c{
   background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));
   margin-bottom: 50px;
+}
+.minmarg{
+  margin-top: 10px;
 }
 
 .ig{
