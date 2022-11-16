@@ -1,8 +1,7 @@
 body{
   background-color: rgb(128, 192, 226);
-  margin-left: 0px;
-  margin-right: 0px;
 }
+
 nav {
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -15,7 +14,6 @@ header{
 }
 html {
   scroll-behavior: smooth;
-  background: linear-gradient(to bottom,rgb(255, 255, 255) ,rgb(90, 90, 90)01%);
 }
 main{
   animation: transitionIn 0.75s;
@@ -39,6 +37,7 @@ footer{
       transform: rotateX(0);
   }
 }
+
 .indice{
   margin-top: 20px;
 }
