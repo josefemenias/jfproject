@@ -15,11 +15,11 @@ html {
   scroll-behavior: smooth;
 }
 main{
-  
   animation: transitionIn 0.75s;
 }
 footer{
   background-color: rgb(90, 90, 90);
+  background: linear-gradient(to bottom,rgb(128, 192, 226) ,rgb(90, 90, 90)70%);
   margin: -8px;
   margin-top: 8px;
   padding: 10px;
@@ -40,6 +40,7 @@ footer{
 .ifnor{
  text-align: center;
  text-decoration-line: underline;
+ text-decoration-style: dotted;
  text-decoration-color: #000000;
  text-decoration-thickness: auto ;
 }
@@ -118,7 +119,9 @@ footer{
     font-size: larger;
     transition: 0.4s;
     background-color: rgba(255, 255, 255, 0.219);
-    margin-left: 10px;
+    margin-left: 25%;
+    
+    margin-bottom: 30px;
 }  
 .return:hover{
     background-color: rgba(0, 0, 0, 0.446);
@@ -133,10 +136,12 @@ footer{
 /* de aqui para abajo es css de el slider */
 
 .slider-wrap {
-  width: 75%;
+  padding: 15px;
+  width: 80%;
   height: 55%;
   margin: 70px auto;
   position: relative;
+  border: #000000 2px solid;
 }
 .slider {
   overflow-x: scroll;
@@ -154,7 +159,7 @@ footer{
 .temp {
   position: absolute;
   color: white;
-  font-size: 20px;
+  font-size: 35px;
   bottom: 15px;
   left: 15px;
   font-family: 'Josefin Slab', serif;
