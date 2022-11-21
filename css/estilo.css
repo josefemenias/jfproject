@@ -11,9 +11,6 @@ html {
   background: #000000;
   border: 1px solid #ffffff;
 }
-main{
-  animation: transitionIn 0.75s;
-}
 footer{
 
   margin: 8px;
@@ -21,7 +18,9 @@ footer{
   padding: 10px;
   text-align: center;
 }
-
+main{
+  animation: transitionIn 1s;
+}
 @keyframes transitionIn{
   from{
       opacity: 0;
