@@ -1,27 +1,23 @@
 body{
-  background-color: rgb(128, 192, 226);
-}
-
-nav {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 25px;
-  margin: -8px;
-  margin-bottom: -20px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background: linear-gradient(white 0%,rgb(128, 192, 226) 40%,rgb(128, 192, 226) 70%,rgb(95, 95, 95) 95%);
 }
 header{
   margin-top: 5px;
 }
 html {
   scroll-behavior: smooth;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
 }
 main{
   animation: transitionIn 0.75s;
 }
 footer{
-  background-color: rgb(90, 90, 90);
-  background: linear-gradient(to bottom,rgb(128, 192, 226) ,rgb(90, 90, 90)70%);
-  margin: -8px;
+  /*background-color: rgb(90, 90, 90);*/
+  /*background: linear-gradient(to bottom,rgb(128, 192, 226) ,rgb(90, 90, 90)70%);*/
+  margin: 8px;
   margin-top: 8px;
   padding: 10px;
   text-align: center;
@@ -45,17 +41,27 @@ footer{
  text-align: center;
  text-decoration: wavy;
 }
+nav {
+  text-align: center;
+  padding: 25px;
+  margin: 8px;
+  margin-bottom: -20px;
+}
 .navbar_a{
-  background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));
+ /* background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));*/
   margin-bottom: 50px;
+  text-align: center;
 }
 .navbar_b{
+  margin-top: 5px;
   font-size: x-large;
   font-style: italic;
+  text-align: center;
 }
 .navbar_c{
-  background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));
+ /* background: linear-gradient(to bottom,rgb(255, 255, 255)60%,rgb(128, 192, 226));*/
   margin-bottom: 50px;
+  text-align: center;
 }
 .minmarg{
   margin-top: 10px;
@@ -94,14 +100,11 @@ footer{
 
 .semiwhitebackground1{
     background-color: rgba(255, 255, 255, 0.542);
+    margin: 10px;
     padding: 10px;
     border-radius: 5px;
     }
-  .semiwhitebackground2{
-    background-color: rgba(255, 255, 255, 0.542);
-    padding: 10px;
-    border-radius: 5px;
-    }
+
 .getbigger:hover{
     font-size: medium;
     transition: 0.1s;
@@ -137,7 +140,7 @@ footer{
     font-size: larger;
     transition: 0.4s;
     background-color: rgba(255, 255, 255, 0.219);
-    margin-left: 20%;
+    margin-left: 19%;
     margin-top: 10px;
 }  
 .return:hover{
@@ -156,7 +159,7 @@ footer{
   padding: 15px;
   width: 80%;
   height: 55%;
-  margin: 70px auto;
+  margin: 40px auto;
   position: relative;
   border: #000000 2px solid;
 }
